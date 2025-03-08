@@ -22,4 +22,31 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.2.3</version>
+      <configuration>
+        <!-- Include/Exclude Tests -->
+        <includes>
+          <include>**/*Test.java</include>
+        </includes>
+        <excludes>
+          <exclude>**/*IntegrationTest.java</exclude>
+        </excludes>
+
+        <!-- Set System Properties -->
+        <systemPropertyVariables>
+          <environment>dev</environment>
+        </systemPropertyVariables>
+
+        <!-- Parallel Test Execution -->
+        <parallel>methods</parallel>
+        <threadCount>4</threadCount>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
 </project>

@@ -1,12 +1,10 @@
 package New_JAva_Project.java;
 
-public class firstjava {
+public class thirdTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		
-		System.out.println("hello wordld");
+System.out.println("dsjfhdsjfjdsfhjsdhfjsdfhjsdhfjsdhfjsdhfj");
 	}
 
 }

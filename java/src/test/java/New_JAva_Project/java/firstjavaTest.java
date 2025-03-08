@@ -1,8 +1,12 @@
 package New_JAva_Project.java;
 
+import org.testng.annotations.Test;
+
 public class firstjavaTest {
 
-	public static void main(String[] args) {
+	
+	@Test
+	public  void first(){
 		// TODO Auto-generated method stub
 
 		

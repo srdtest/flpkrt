@@ -3,7 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="New_JAva_Project.java.firstTest"/>
+      <class name="New_JAva_Project.java.thirdTest"/>
       <class name="New_JAva_Project.java.firstjavaTest"/>
+      <class name="New_JAva_Project.java.secondTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,6 +1,7 @@
 package New_JAva_Project.java;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class firstjavaTest {
 

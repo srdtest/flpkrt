@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.467" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.498" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Nihir\AppData\Local\Temp\surefire2628717519160149278\surefirebooter-20250308022758529_3.jar C:\Users\Nihir\AppData\Local\Temp\surefire2628717519160149278 2025-03-08T02-27-58_407-jvmRun1 surefire-20250308022758529_1tmp surefire_0-20250308022758529_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Nihir\AppData\Local\Temp\surefire13380470059968249206\surefirebooter-20250308023155531_3.jar C:\Users\Nihir\AppData\Local\Temp\surefire13380470059968249206 2025-03-08T02-31-55_416-jvmRun1 surefire-20250308023155531_1tmp surefire_0-20250308023155531_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Nihir\git\new_JAVA\java\target\test-classes;C:\Users\Nihir\git\new_JAVA\java\target\classes;C:\Users\Nihir\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Nihir\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Nihir\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Nihir\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Nihir\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Nihir\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Nihir\AppData\Local\Temp\surefire2628717519160149278\surefirebooter-20250308022758529_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nihir\AppData\Local\Temp\surefire13380470059968249206\surefirebooter-20250308023155531_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -59,9 +59,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="first" classname="New_JAva_Project.java.firstjavaTest" time="0.005">
-    <system-out><![CDATA[02:27:58.953 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\Nihir\git\new_JAVA\java\testng.xml"
+  <testcase name="test3" classname="New_JAva_Project.java.secondTest" time="0.006">
+    <system-out><![CDATA[02:31:55.937 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\Nihir\git\new_JAVA\java\testng.xml"
+hi
+fdsfsdfsdfhsdfsdfhsdfiuosdhf
+dsjfhdsjfjdsfhjsdhfjsdfhjsdhfjsdhfjsdhfj
 hello wordld
 ]]></system-out>
   </testcase>
+  <testcase name="test2" classname="New_JAva_Project.java.firstTest" time="0.007"/>
+  <testcase name="first" classname="New_JAva_Project.java.firstjavaTest" time="0.007"/>
+  <testcase name="test4" classname="New_JAva_Project.java.thirdTest" time="0.007"/>
 </testsuite>

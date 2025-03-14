@@ -19,6 +19,7 @@
     <testng.version>7.8.0</testng.version>
     <surefire.version>3.2.5</surefire.version>
     <failsafe.version>3.2.5</failsafe.version>
+    <selenium-java.version>4.10.0</selenium-java.version>
   </properties>
 
   <dependencies>
@@ -29,6 +30,13 @@
       <version>${testng.version}</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>${selenium-java.version}</version>
+</dependency>
+
 
     <!-- Logging: SLF4J + Logback -->
     <dependency>
